@@ -33,11 +33,34 @@ const myFunction=function(){
 
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive)
+
+//Heap(NonPrimitive)
+
+let usernameofyoutube = "aarohiaarohi@12345"
+
+let anothername = usernameofyoutube
+
+anothername = "aarohikomal1958"
+
+console.log(anothername);
+console.log(anothername);
 
 
 
+let userOne = {
+    email: "useraarohi@gmail",
+    age : "19",
+}
 
+let userTwo = userOne
+userTwo.email = "aanshotghgk@gmail";
 
+console.log(userOne.email);
+console.log(userOne.email);
 
 
 
